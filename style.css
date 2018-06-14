@@ -148,7 +148,6 @@ ul h2, p {
 .content {
   	flex: 1 0 auto;
   	perspective: 1500px;
-  	margin-bottom: 100px;
 }
 
 .article-image {
@@ -165,6 +164,7 @@ ul h2, p {
 	display: inline-block;
 	float: left;
 	margin-top: 20px;
+	margin-bottom: 50px;
 }
 
 .wrapper-article h1 {
@@ -216,10 +216,33 @@ ul h2, p {
 	padding-left: 20px;
 }
 
-.footer {
+.wrapper-footer {
 	height: 100px;
 	width: 1200px;
   	flex: 0 0 auto;
   	margin: 0 auto;
-  	margin-top: 50px;
+}
+
+.footer {
+	margin: 5px;
+	margin-bottom: 50px;
+}
+
+.footer_left {
+	display: inline-block;
+	float: left;
+	margin-right: 310px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.footer_right {
+	display: inline-block;
+	float: left;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.footer_right a {
+	margin-right: 20px;
 }
